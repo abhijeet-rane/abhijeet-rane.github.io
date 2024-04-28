@@ -409,8 +409,8 @@ section .title::before{
 .skills-content .column .ds::before{
     width: 60%;
 }
-.skills-content .column .mysql::before{
-    width: 50%;
+.skills-content .column .python::before{
+    width: 70%;
 }
 
 
