@@ -414,6 +414,33 @@ section .title::before{
 }
 
 
+/* Achievement section styling */
+.achievement{
+    color:#fff;
+    background: #565555;
+}
+.achievement .title::before{
+    background: #fff;
+}
+.achievement .achievement-content .column{
+    margin-left: 50px;
+    width: calc(100% - 100px);
+}
+.achievement .achievement-content .column .bars{
+    margin-bottom: 15px;
+}
+.achievement .achievement-content .column .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.achievement .achievement-content .column span{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
 /* projects section styling */
 .projects{
     color:#fff;
