@@ -415,6 +415,7 @@ section .title::before{
 
 
 /* Achievement section styling */
+/*
 .achievement{
     color:#fff;
     background: #565555;
@@ -439,7 +440,7 @@ section .title::before{
     font-weight: 500;
     font-size: 20px;
 }
-
+*/
 
 /* projects section styling */
 .projects{
