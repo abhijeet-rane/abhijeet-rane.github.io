@@ -309,7 +309,7 @@ section .title::before{
 
 /* about section styling */
 .about .about-content .left{
-    width: 45%;
+    width: 40%;
 }
 .about .about-content .left img{
     height: 450px;
