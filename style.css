@@ -255,7 +255,7 @@ strong { color: var(--text-heading); font-weight: 600; }
 
 .preloader__content { text-align: center; }
 
-.preloader__svg { width: 140px; height: 70px; }
+.preloader__svg { width: 200px; height: 70px; }
 
 .preloader__text {
     font-family: var(--font-heading); font-size: 48px; font-weight: 700;
@@ -322,13 +322,26 @@ strong { color: var(--text-heading); font-weight: 600; }
 }
 
 .navbar__logo {
-    font-family: var(--font-heading); font-size: 1.75rem; font-weight: 700;
-    color: var(--text-heading);
+    font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700;
+    color: var(--text-heading); display: flex; align-items: center; gap: 0.15rem;
+    position: relative;
 }
+.navbar__logo-bracket {
+    font-weight: 400; color: var(--text-secondary); font-size: 1.2rem;
+    opacity: 0.6; transition: all var(--transition-base);
+}
+.navbar__logo:hover .navbar__logo-bracket { opacity: 1; color: var(--accent-cyan); }
+.navbar__logo-text { color: var(--text-heading); }
 .navbar__logo-accent {
     background: var(--accent-gradient); -webkit-background-clip: text;
     background-clip: text; -webkit-text-fill-color: transparent;
 }
+.navbar__logo-cloud {
+    font-size: 0.65rem; color: var(--accent-cyan); margin-left: 0.3rem;
+    opacity: 0.7; animation: float 4s ease-in-out infinite;
+    transition: all var(--transition-base);
+}
+.navbar__logo:hover .navbar__logo-cloud { opacity: 1; filter: drop-shadow(0 0 4px rgba(0, 212, 255, 0.5)); }
 
 .navbar__menu { display: flex; align-items: center; gap: var(--space-xl); }
 
@@ -619,7 +632,13 @@ strong { color: var(--text-heading); font-weight: 600; }
 }
 .timeline__badge--live {
     color: #22c55e; background: rgba(34, 197, 94, 0.1); border: 1px solid rgba(34, 197, 94, 0.2);
+    text-decoration: none; transition: all var(--transition-fast); cursor: pointer;
 }
+.timeline__badge--live:hover {
+    background: rgba(34, 197, 94, 0.2); border-color: rgba(34, 197, 94, 0.4);
+    box-shadow: 0 0 10px rgba(34, 197, 94, 0.15); transform: translateY(-1px);
+}
+.timeline__badge--live i { font-size: 0.6rem; }
 
 .timeline__details { list-style: none; padding: 0; margin-bottom: var(--space-md); }
 .timeline__details li {
@@ -838,6 +857,10 @@ strong { color: var(--text-heading); font-weight: 600; }
 
 .footer__logo {
     font-family: var(--font-heading); font-size: 2rem; font-weight: 700; color: var(--text-heading);
+    display: inline-flex; align-items: center; gap: 0.1rem;
+}
+.footer__logo-bracket {
+    font-weight: 400; color: var(--text-secondary); font-size: 1.6rem; opacity: 0.5;
 }
 .footer__logo-accent {
     background: var(--accent-gradient); -webkit-background-clip: text;
