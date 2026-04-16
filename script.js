@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const certImages = {
         0: { title: 'AWS Certified Cloud Practitioner', image: 'images/certificates/aws_cloud_foundation.png' },
-        1: { title: 'AWS Cloud Architecting', image: 'images/certificates/aws_cloud_essentials.png' },
+        1: { title: 'AWS Cloud Architecting', image: 'images/certificates/aws_cloud_architecting.png' },
         2: { title: 'Cybersecurity Essentials', image: 'images/certificates/cybersecurity_essentials.png' },
         3: { title: 'Programming Essentials in Python (PCAP)', image: 'images/certificates/python_essential.png' },
         4: { title: 'Postman API Fundamentals', image: 'images/certificates/postman_api.png' }
