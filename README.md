@@ -40,10 +40,6 @@ My personal developer portfolio — built with vanilla HTML, CSS & JavaScript. F
 | **Form Backend** | [Formspree](https://formspree.io/) |
 | **Hosting** | [GitHub Pages](https://pages.github.com/) |
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 Built by **Abhijeet Rane** — [LinkedIn](https://www.linkedin.com/in/abhijeet-rane-894106266) · [GitHub](https://github.com/abhijeet-rane) · [Email](mailto:abhijeetrane204@gmail.com)
