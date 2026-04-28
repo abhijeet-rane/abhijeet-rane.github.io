@@ -431,10 +431,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const certImages = {
         0: { title: 'AWS Certified Cloud Practitioner', image: 'images/certificates/aws_cloud_foundation.png' },
-        1: { title: 'AWS Cloud Architecting', image: 'images/certificates/aws_cloud_architecting.png' },
-        2: { title: 'Cybersecurity Essentials', image: 'images/certificates/cybersecurity_essentials.png' },
-        3: { title: 'Programming Essentials in Python (PCAP)', image: 'images/certificates/python_essential.png' },
-        4: { title: 'Postman API Fundamentals', image: 'images/certificates/postman_api.png' }
+        1: { title: 'AWS Certified Solutions Architect - Associate', image: 'images/certificates/AWS_Certified_Solutions_Architect_certificate.png' },
+        2: { title: 'AWS Cloud Architecting', image: 'images/certificates/aws_cloud_architecting.png' },
+        3: { title: 'Cybersecurity Essentials', image: 'images/certificates/cybersecurity_essentials.png' },
+        4: { title: 'Programming Essentials in Python (PCAP)', image: 'images/certificates/python_essential.png' },
+        5: { title: 'Postman API Fundamentals', image: 'images/certificates/postman_api.png' }
     };
 
     document.querySelectorAll('[data-cert-index]').forEach(card => {
